@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(void){
+  
+  // ints
   short short_a = 5;
   int normal_a = 67;
   unsigned unsigned_a = 67u;
@@ -11,6 +13,8 @@ int main(void){
   printf("67 as char is %c\n", normal_a);
   printf("sizes in bytes of short, int, unsigned, and long on my machine: ");
   printf("%lu, %lu, %lu, %lu\n", sizeof(short_a), sizeof(normal_a), sizeof(unsigned_a), sizeof(long_a));
+  
+  //floats
   
   
   return 0;
